@@ -22,6 +22,14 @@
   backdrop-filter: blur(2rem); */
 }
 
+#speedText{
+  position:absolute;
+  top:15%;
+  left:10%;
+  font:10px;
+  color: black;
+}
+
 /* bolts */
 .round {
   display: inline-block;
