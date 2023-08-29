@@ -253,6 +253,55 @@ em:current font size
   .tooltip {
     font-size: 1rem;
   }
+  #commentboxleft {
+    width: auto;
+    height: auto;
+    gap: 0.5rem;
+    padding-right: 2rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #commentboxleft {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  #commentboxleft {
+    width: 80%; /* Adjust as needed */
+    height: auto;
+  }
+}
+
+@media (min-width: 1201px) {
+  #commentboxleft {
+    width: 60%; /* Adjust as needed */
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #canvas {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  #canvas {
+    width: 80%; /* Adjust as needed */
+    height: auto;
+  }
+}
+
+@media (min-width: 1201px) {
+  #canvas {
+    width: 60%; /* Adjust as needed */
+    height: auto;
+  }
 }
 /* 
 
@@ -263,3 +312,6 @@ em:current font size
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
  */
+
+
+
