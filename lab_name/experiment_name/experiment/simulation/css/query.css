@@ -55,6 +55,17 @@ em:current font size
     font:10px;
     color: black;
   }
+  div#commentboxleft
+{
+  font-size:medium;
+	position: absolute;
+  top: 20%;
+  left: 75%;
+  right:10%;
+  height:150px;
+  width:150px;
+}
+
 }
 
 /* **************************** */
@@ -148,6 +159,7 @@ em:current font size
     font:10px;
     color: black;
   }
+  
 }
 
 /* **************************** */
@@ -174,6 +186,16 @@ em:current font size
     font:10px;
     color: black;
   }
+  div#commentboxleft
+{
+  font: size 1.4rem;
+	position: absolute;
+  top: 20%;
+  left: 75%;
+  right:10%;
+  height:150px;
+  width:120px;
+}
 }
 
 /* **************************** */
@@ -221,6 +243,16 @@ em:current font size
     font:10px;
     color: black;
   }
+  div#commentboxleft
+{
+  font-size:small;
+	position: absolute;
+  top: 20%;
+  left: 75%;
+  right:10%;
+  height:110px;
+  width:130px;
+}
 }
 
 /* **************************** */
@@ -281,44 +313,63 @@ em:current font size
   .tooltip {
     font-size: 1rem;
   }
-  #commentboxleft {
-    width: auto;
-    height: auto;
-    gap: 0.5rem;
-    padding-right: 2rem;
+  #speedText{
+    position:absolute;
+    top:10%;
+    left:20%;
+    font:10px;
+    color: black;
+  }
+  div#commentboxleft
+{
+  font-size:1rem;
+	position: absolute;
+  top: 20%;
+  left: 75%;
+  right:10%;
+  height:110px;
+  width:130px;
+}
+}
+
+@media (min-width:2em){
+  div#commentboxleft
+  {
+    font-size:small;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    right:20%;
+    height:110px;
+    width:130px;
+  }
+}
+
+@media (min-width:1em){
+  div#commentboxleft
+  {
+    font-size:small;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    right:30%;
+    height:100px;
+    width:150px;
   }
 }
 
 
+
+
+
 @media (max-width: 768px) {
-  #commentboxleft {
+  #canvas {
     width: 100%; /* Adjust as needed */
     height: auto;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
-  #commentboxleft {
-    width: 80%; /* Adjust as needed */
-    height: auto;
-  }
-}
-
-@media (min-width: 1201px) {
-  #commentboxleft {
-    width: 60%; /* Adjust as needed */
-    height: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  #canvas {
-    width: 100%; /* Adjust as needed */
-    height: auto;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1200px) {
   #canvas {
     width: 80%; /* Adjust as needed */
     height: auto;
@@ -330,6 +381,17 @@ em:current font size
     width: 60%; /* Adjust as needed */
     height: auto;
   }
+  div#commentboxleft
+  {
+    font-size:medium;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    right:20%;
+    height:110px;
+    width:130px;
+  }
+}
 }
 /* 
 
